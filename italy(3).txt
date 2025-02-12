@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi"> <!-- Khai báo ngôn ngữ là tiếng Việt -->
+<head>
+    	<meta charset="UTF-8"> <!-- Khai báo mã hóa ký tự UTF-8 -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Đảm bảo hiển thị tốt trên mọi thiết bị -->
+    	<title>BIẾN PHÒNG THỦ HUNGARY</title>
+
+	<style>
+	body
+	{
+		background-color:lightgreen;
+	}
+
+	.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+	.logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .logo a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+	
+	.para
+	{
+		font-family:Times new roman;
+            	margin-left: 250px;  /* Lề trái */
+            	margin-right: 250px; /* Lề phải */
+        }
+
+	.tit
+	{
+		margin-left: 100px;  /* Lề trái */
+		color:brown;
+	}
+
+	</style>
+</head>
+<body>
+	<div class="navbar">
+        <div class="logo">
+           <a href="home.html">
+            <img src="3img.png" alt="Logo"> Trang chủ</a>
+        </div>
+	</div>
+
+    	<center>
+        	<h1><b>BIẾN PHÒNG THỦ HUNGARY</b></h1>
+    	</center>
+
+	<div class="para">
+		<p><h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Biến thể này là một phương án chắc chắn, thường được sử dụng với chủ định cầm hòa đối thủ trong những trận đấu thuộc các giải thi đấu để tránh những sự phức tạp và rủi ro của những phương án khác.</h3></p>
+	</div>
+	<center>
+        	<h2><em>Diễn biến</em></h2>
+		<br>
+		<video width="400" height="400" controls>
+        		<source src="13vid.mp4" type="video/mp4">
+    		</video>
+</body>
+</html>
